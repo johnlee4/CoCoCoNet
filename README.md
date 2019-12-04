@@ -7,6 +7,8 @@ To use OrthoCoNet, simply input a list of genes to be used in the construction o
 
 
 ## The Parameters
+![param](https://github.com/johnlee4/OrthoCoNet/blob/master/figures/parameters.png)
+
 **The Species**
   
   Select the species that you wish to match your input gene list to. 
@@ -28,9 +30,14 @@ To use OrthoCoNet, simply input a list of genes to be used in the construction o
   Allows you to choose how to load in a gene list. Currently, you can select genes from a drop down list, paste a comma separated list, or upload a file with genes listed in new lines. 
   
 ## Generating the results
+![param](https://github.com/johnlee4/OrthoCoNet/blob/master/figures/yeast.png)
+
+
 Once your genes have been properly loaded, the "Generate Results" and "Clear Results" options will appear. Selecting "Generate Results" will display the distribution of Co-expression values, the network and a sliding threshold bar that allows the user to display co-expression values greater than this threshold. The user also has the option to highlight genes along with their nearest neighbor or highlight genes with specified GO terms. Note that the GO terms listed are deemed overrepresented in the network by a gene set enrichment analysis. Users can also zoom in and out of the network to view gene symobls and connection weights. 
 
 ## Ortholog Mapped genes
+![param](https://github.com/johnlee4/OrthoCoNet/blob/master/figures/C_elegans.png)
+
 Expanding the next section using the (+) symbol allows the user to input a second species to compare to the first. After selection, "Generate" and "Clear" buttons will appear where selecting "Generate" will again display the co-expression value distribution, the network and a sliding threshold bar. Again the user has the option to highlight genes along with its nearest neighbors or highlight genes by GO term.  
 
 ## Extending Guilt by Association by Degree (EGAD)
