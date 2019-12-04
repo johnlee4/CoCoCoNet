@@ -42,3 +42,8 @@ Expanding the next section using the (+) symbol allows the user to input a secon
 
 ## Extending Guilt by Association by Degree (EGAD)
 Expanding the final sectionusing the (+) symbbol gives the user the option to perform EGAD analysis on each of the above networks and visualize the distribution of AUROC  or AUPRC using either neighbor voting or node degreee. Also displayed is a summary of the top performing gene - GO term pair predicted using EGAD. 
+
+
+## Downloadables
+
+You can download the data used to generate the 
