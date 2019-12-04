@@ -11,9 +11,9 @@ To use OrthoCoNet, simply input a list of genes to be used in the construction o
   
 **Priority vs Meta**
   
-  Priority will search for genes that appear in more than 50% of the experiments used to generate the aggregate. This ensures that expression levels are similarly powered.
+  Priority will only use a subset of the gene set filtered on expresionality across experiments.
   
-  Meta on the otherhand will build the network for all genes in the genome. 
+  Meta on the otherhand will build the network using all genes in the gene set.
   
 
 **Using genes ...**
@@ -26,4 +26,10 @@ To use OrthoCoNet, simply input a list of genes to be used in the construction o
   Allows you to choose how to load in a gene list. Currently, you can select genes from a drop down list, paste a comma separated list, or upload a file with genes listed in new lines. 
   
 ## Generating the results
-Once your genes have been properly loaded, the "Generate Results" and "Clear Results" options will appear. Selecting "Generate Results" will display the distribution of Co-expression values, the network and a sliding threshold bar that allows the user to display co-expression values greater than this threshold. 
+Once your genes have been properly loaded, the "Generate Results" and "Clear Results" options will appear. Selecting "Generate Results" will display the distribution of Co-expression values, the network and a sliding threshold bar that allows the user to display co-expression values greater than this threshold. The user also has the option to highlight genes along with their nearest neighbor or highlight genes with specified GO terms. Note that the GO terms listed are deemed overrepresented in the network by a gene set enrichment analysis. Users can also zoom in and out of the network to view gene symobls and connection weights. 
+
+## Ortholog Mapped genes
+Expanding the next section using the (+) symbol allows the user to input a second species to compare to the first. After selection, "Generate" and "Clear" buttons will appear where selecting "Generate" will again display the co-expression value distribution, the network and a sliding threshold bar. Again the user has the option to highlight genes along with its nearest neighbors or highlight genes by GO term.  
+
+## Extending Guilt by Association by Degree (EGAD)
+Expanding the final sectionusing the (+) symbbol gives the user the option to perform EGAD analysis on each of the above networks and visualize the distribution of AUROC  or AUPRC using either neighbor voting or node degreee. Also displayed is a summary of the top performing gene - GO term pair predicted using EGAD. 
