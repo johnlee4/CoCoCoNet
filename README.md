@@ -1,13 +1,17 @@
 # CoCoCoNet User Manual (UNDER CONSTRUCTION)
 
-CoCoCoNet is a simple to use webserver that allows the user to build, view and analyze co-expression networks without having to input experimental data. Because gene expression data is inherently noisy, meta-analysis provides a method to significantly improve the quality of data when assessed using the Guilt by Association principle. This data is curated by aggregating the expression reads of many RNA-seq experiments obtained through the NCBI's SRA database using guidelines outlined in 
+CoCoCoNet is a simple to use webserver that allows the user to build, view and analyze co-expression networks without having to input experimental data. Because gene expression data is inherently noisy, meta-analysis provides a method to significantly improve the quality of data when assessed using the Guilt by Association (GBA) principle. This data is curated by aggregating the expression reads of many RNA-seq experiments obtained through the NCBI's SRA database [1] using guidelines outlined in [2]. 
 
-To use CoCoCoNet, simply input a list of genes (or a single gene) and the corresponding species to be used in the construction of the network. Given these, you can select optional parameters, described below, generate the results and view the distribution of co-expression values as well as the network. 
+To use CoCoCoNet, simply input a list of genes (or a single gene) as gene symbols and the corresponding species to be used in the construction of the network. Given these, you can select optional parameters, described below, generate the results and view the distribution of co-expression values as well as the network. CoCoCoNet also allows you to compare the network with another species using a 1 to 1 ortholog mapping [3] as well as perform a GBA analysis using EGAD [4].
 
 
 
 ## The Parameters
 ![param](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/main.png)
+
+**Example Settings **
+  
+  Choose to use either: Top 236 co-expressed Yeast genes studied by Eisen et al [5] or Top 284 co-expressed genes associated with Autism Spectrum Disorder (ASD) from the SFARI database [6].
 
 **The Species**
   
@@ -27,7 +31,7 @@ To use CoCoCoNet, simply input a list of genes (or a single gene) and the corres
 
 **Using genes ...**
   
-  "That I provide only" will construct a network using only selected genes
+  "That I provide only" will construct the network using only selected genes.
   
   "That I provide plus __ more" will select the most closely related genes not in the provided set. Here we define the "relation" as having the largest weighted degree of edges connected to the provided genes.
   
@@ -45,13 +49,9 @@ The next section allows the user to input a second species to compare to the fir
 
 
 ## Extending Guilt by Association by Degree (EGAD)
-The final section allows the user to perform Guilt by Association (GBA) analysis on each of the above networks using EGAD and visualize the distribution of AUROC  or AUPRC using either neighbor voting or node degreee.
-
+The final section allows the user to perform Guilt by Association (GBA) analysis on the input genes and the corresponding 1 to 1 ortholog using EGAD [4]. EGAD analyzes the enriched GO terms using either neighbor voting or by node degree and reports the corresponding area under the receiver operating curve (AUROC) or the precision recall curve (AUPRC). 
 
 ## Downloadables
 ![download](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/download.png)
 
-You can download the data used to generate the 
-
-
-## Case Study
+Data used to generate results can be downloaded at ftp://143.48.220.188/data. User results can also be downloaded at every step by toggling the "Download" option.
