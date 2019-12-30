@@ -11,7 +11,7 @@ To use CoCoCoNet, simply input a list of genes (or a single gene) as gene symbol
 
 **Example Settings**
   
-  Choose to use either: Top 236 co-expressed Yeast genes studied by Eisen et al [5] or the top 284 co-expressed genes associated with Autism Spectrum Disorder (ASD) from the SFARI database [6].
+  Choose to use either: Top 236 co-expressed Yeast genes studied by Eisen et al [5] or the top 284 co-expressed genes associated with Autism Spectrum Disorder (ASD) from the SFARI Gene database [6].
 
 **The Species**
   
@@ -38,7 +38,7 @@ To use CoCoCoNet, simply input a list of genes (or a single gene) as gene symbol
   
 ## Generating the results
 
-Once your genes have been properly loaded, the "Generate Results" and "Clear Results" options will appear. Selecting "Generate Results" will display the network, the distribution of Co-expression values, and a sliding threshold bar that allows the user to filter the network to include only connections greater than this threshold. The user also has the option to highlight genes along with their direct connections or highlight genes with specified enriched GO terms. Using the example setting of "Top Co-expressed Yeast Genes" and selecting genes with GO term "translation initiation" gives the folowwing network.
+Once your genes have been properly loaded, the "Generate Results" and "Clear Results" options will appear. Selecting "Generate Results" will display the network, the distribution of Co-expression values, and a sliding threshold bar that allows the user to filter the network to include only connections greater than this threshold. The user also has the option to highlight genes along with their direct connections or highlight genes with specified enriched GO terms. Using the example setting of "Highly Co-expressed Yeast Genes" and selecting genes with GO term "translation initiation" gives the folowwing network.
 ![yeast](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/yeast.png)
 
 
@@ -49,9 +49,18 @@ The next section allows the user to input a second species to compare to the fir
 
 
 ## Extending Guilt by Association by Degree (EGAD)
-The final section allows the user to perform Guilt by Association (GBA) analysis on the input genes and the corresponding 1 to 1 ortholog using EGAD [4]. EGAD analyzes the enriched GO terms using either neighbor voting or by node degree and reports the corresponding area under the receiver operating curve (AUROC) or the precision recall curve (AUPRC). 
+The final section allows the user to perform Guilt by Association (GBA) analysis on the input genes and the corresponding 1 to 1 ortholog using EGAD [4]. EGAD analyzes enriched GO terms of each species using either neighbor voting or by node degree and reports the corresponding area under the receiver operating curve (AUROC) or the precision recall curve (AUPRC) across 3 cross validation folds. 
 
 ## Downloadables
 ![download](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/download.png)
 
-Data used to generate results can be downloaded at ftp://143.48.220.188/data. User results can also be downloaded at every step by toggling the "Download" option.
+Data used to generate results can be downloaded at ftp://milton.cshl.edu/data. User results can also be downloaded at every step by toggling the "Download" option.
+
+## References
+[1] https://academic.oup.com/nar/article/39/suppl_1/D19/2505848
+[2] https://www.pnas.org/content/95/25/14863
+[3] https://academic.oup.com/nar/article/47/D1/D807/5160989
+[4] https://academic.oup.com/bioinformatics/article/33/4/612/2664343
+[5] https://academic.oup.com/bioinformatics/article/31/13/2123/196230
+[6] https://dmm.biologists.org/content/3/3-4/133#ref-1
+
