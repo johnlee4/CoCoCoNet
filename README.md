@@ -9,7 +9,7 @@ To use CoCoCoNet, simply input a list of genes (or a single gene) as gene symbol
 ## The Parameters
 ![param](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/main.png)
 
-**Example Settings **
+**Example Settings**
   
   Choose to use either: Top 236 co-expressed Yeast genes studied by Eisen et al [5] or Top 284 co-expressed genes associated with Autism Spectrum Disorder (ASD) from the SFARI database [6].
 
