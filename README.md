@@ -56,11 +56,27 @@ The final section allows the user to perform Guilt by Association (GBA) analysis
 
 Data used to generate results can be downloaded at ftp://milton.cshl.edu/data. User results can also be downloaded at every step by toggling the "Download" option.
 
+## Browser Support
+
+| OS | Version | Chrome | FireFox | Microsoft  Edge | Safari | 
+| ----- | ----- | ----- | ----- | -----  | ----- | 
+| Linux | Ubuntu | 79.0.3945 | 71.0 | N/A | N/A | 
+| MacOS | Yosemite | 79.0.3945 | 71.0 | N/A | 10.1.2 | 
+| Windows | 10 | 79.0.3945 | 71.0 | 44.18362.449.0 | N/A | 
+
+
 ## References
+
 [1] https://academic.oup.com/nar/article/39/suppl_1/D19/2505848
+
 [2] https://www.pnas.org/content/95/25/14863
+
 [3] https://academic.oup.com/nar/article/47/D1/D807/5160989
+
 [4] https://academic.oup.com/bioinformatics/article/33/4/612/2664343
+
 [5] https://academic.oup.com/bioinformatics/article/31/13/2123/196230
+
 [6] https://dmm.biologists.org/content/3/3-4/133#ref-1
+
 
