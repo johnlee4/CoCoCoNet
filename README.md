@@ -54,7 +54,7 @@ The final section allows the user to perform Guilt by Association (GBA) analysis
 ## Downloadables
 ![download](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/download.png)
 
-Data used to generate results can be downloaded at ftp://milton.cshl.edu/data. User results can also be downloaded at every step by toggling the "Download" option.
+Data used to generate results can be downloaded at (ftp://milton.cshl.edu/data). User results can also be downloaded at every step by toggling the "Download" option.
 
 ## Browser Support
 
