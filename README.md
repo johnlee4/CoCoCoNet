@@ -61,22 +61,20 @@ Data used to generate results can be downloaded at [ftp://milton.cshl.edu/data](
 | OS | Version | Chrome | FireFox | Microsoft  Edge | Safari | 
 | ----- | ----- | ----- | ----- | -----  | ----- | 
 | Linux | Ubuntu | 79.0.3945 | 71.0 | N/A | N/A | 
-| MacOS | Yosemite | 79.0.3945 | 71.0 | N/A | 10.1.2 | 
+| MacOS | Catalina | 79.0.3945 | 71.0 | N/A | 10.1.2 | 
 | Windows | 10 | 79.0.3945 | 71.0 | 44.18362.449.0 | N/A | 
 
 
 ## References
 
-[1] https://academic.oup.com/nar/article/39/suppl_1/D19/2505848
+[1] Leinonen, R., Sugawara, H., Shumway, M. on behalf of the International Nucleotide Sequence Database Collaboration (2011) The Sequence Read Archive, _Nucleic Acids Research_, __(39)__, suppl_1, D19–D21, https://doi.org/10.1093/nar/gkq1019
 
-[2] https://www.pnas.org/content/95/25/14863
+[2] Ballouz, S., Verleyen, W., Gillis, J. (2015) Guidance for RNA-seq co-expression network construction and analysis: safety in numbers, _Bioinformatics_, __(31)__, 13, 2123–2130, https://doi.org/10.1093/bioinformatics/btv118
 
-[3] https://academic.oup.com/nar/article/47/D1/D807/5160989
+[3] Kriventseva, E. V., Kuznetsov, D., Tegenfeldt, F., Manni, M., Dias, R., Simão, F. A., Zdobnov, E. M. (2019) OrthoDB v10: sampling the diversity of animal, plant, fungal, protist, bacterial and viral genomes for evolutionary and functional annotations of orthologs, _Nucleic Acids Research_, __(47)__, D1, D807–D811, https://doi.org/10.1093/nar/gky1053
 
-[4] https://academic.oup.com/bioinformatics/article/33/4/612/2664343
+[4] Ballouz, S., Weber, M., Pavlidis, P., Gillis, J. (2017) EGAD: ultra-fast functional analysis of gene networks, _Bioinformatics_, __(33)__, 4, 612–614, https://doi.org/10.1093/bioinformatics/btw695
 
-[5] https://academic.oup.com/bioinformatics/article/31/13/2123/196230
+[5] Eisen, M. B., Spellman, P. T., Brown, P. O., Botstein, D. (1998) Cluster analysis and display of genome-wide expression patterns, _Proceedings of the National Academy of Sciences_, __(95)__, 25, 14863-14868; https://www.pnas.org/content/95/25/14863
 
-[6] https://dmm.biologists.org/content/3/3-4/133#ref-1
-
-
+[6] Banerjee-Basu, S., Packer, A. (2010) SFARI Gene: an evolving database for the autism research community, _Disease Models & Mechanisms_, __3__: 133-135; [doi: 10.1242/dmm.005439](https://dmm.biologists.org/content/3/3-4/133#ref-1)
