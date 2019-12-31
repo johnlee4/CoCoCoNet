@@ -77,4 +77,4 @@ Data used to generate results can be downloaded at [ftp://milton.cshl.edu/data](
 
 [5] Eisen, M. B., Spellman, P. T., Brown, P. O., Botstein, D. (1998) Cluster analysis and display of genome-wide expression patterns, _Proceedings of the National Academy of Sciences_, __(95)__, 25, 14863-14868; https://www.pnas.org/content/95/25/14863
 
-[6] Banerjee-Basu, S., Packer, A. (2010) SFARI Gene: an evolving database for the autism research community, _Disease Models & Mechanisms_, __3__: 133-135; [doi: 10.1242/dmm.005439](https://dmm.biologists.org/content/3/3-4/133#ref-1)
+[6] Banerjee-Basu, S., Packer, A. (2010) SFARI Gene: an evolving database for the autism research community, _Disease Models & Mechanisms_, __3__: 133-135; https://dmm.biologists.org/content/3/3-4/133#ref-1
