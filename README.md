@@ -4,7 +4,7 @@ CoCoCoNet is a simple to use webserver that allows the user to build, view and a
 
 To use CoCoCoNet, simply input a list of genes (or a single gene) as gene symbols and the corresponding species to be used in the construction of the network. Given these, you can select optional parameters, described below, generate the results and view the distribution of co-expression values as well as the network. CoCoCoNet also allows you to compare the network with another species using a 1 to 1 ortholog mapping [3] as well as perform a GBA analysis using EGAD [4].
 
-
+CoCoCoNet is free to use and available at https://milton.cshl.edu/CoCoCoNet/
 
 ## The Parameters
 ![param](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/main.png)
