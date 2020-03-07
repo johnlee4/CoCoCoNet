@@ -1,7 +1,7 @@
 # load minimal dependencies
 library(EGAD)
 library(rhdf5)
-library(Matrix):
+library(Matrix)
 
 
 getEnsemblID <- function(species, gene_list){
