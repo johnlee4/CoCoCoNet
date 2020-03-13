@@ -2,7 +2,7 @@
 
 CoCoCoNet is a simple to use webserver that allows the user to build, view and analyze co-expression networks without having to input experimental data. Because gene expression data is inherently noisy, meta-analysis provides a method to significantly improve the quality of data when assessed using the Guilt by Association (GBA) principle. This data is curated by aggregating the expression reads of many RNA-seq experiments obtained through the NCBI's SRA database [1] using guidelines outlined in [2]. 
 
-To use CoCoCoNet, simply input a list of genes (or a single gene) as gene symbols and the corresponding species to be used in the construction of the network. Given these, you can select optional parameters, described below, generate the results and view the distribution of co-expression values as well as the network. CoCoCoNet also allows you to compare the network with another species using a 1 to 1 ortholog mapping [3] as well as perform a GBA analysis using EGAD [4].
+To use CoCoCoNet, simply input a list of genes (or a single gene) as gene symbols, EntrezID or EnsemblID and the corresponding species to be used in the construction of the network. Given these, you can select optional parameters, described below, generate the results and view the distribution of co-expression values as well as the network. CoCoCoNet also allows you to compare the network with another species using a 1 to 1 ortholog mapping [3] as well as perform a GBA analysis using EGAD [4].
 
 CoCoCoNet is free to use and available at https://milton.cshl.edu/CoCoCoNet/
 
