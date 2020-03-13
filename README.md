@@ -11,19 +11,19 @@ CoCoCoNet is free to use and available at https://milton.cshl.edu/CoCoCoNet/
 Preloaded genes can be used to test the server’s functionality with the “Example settings”. Users can choose either the top 231 co-expressed yeast genes studied by Eisen et al (7) or the top 102 co-expressed genes associated with Autism Spectrum Disorder (ASD) from Satterstrom et al (8) . More on these examples in the use cases section of the manuscript and this document. In the steps below, we have selected the yeast set (Figure S7).
 “Select Input method:” allows users to choose how to load in a gene list. Currently, users can select genes from a drop down list, paste a comma separated list, or upload a file with genes listed in new lines. Toggling between these will change the adjacent “Upload gene list” box. 
 
-Users can extend their analyses beyond their gene set with the “Using genes” options. 
+Users can extend their analyses beyond their gene set with the “__Using genes__” options. 
 
-•	“That I provide only" will construct the network using only selected genes. This is the default setting.
+•	“__That I provide only__" will construct the network using only selected genes. This is the default setting.
 
-•	"That I provide plus more highly co-expressed genes" will select the most closely related genes not in the provided set. Here we define the "relation" as having the largest weighted degree of edges connected to the provided genes.
+•	"__That I provide plus more highly co-expressed genes__" will select the most closely related genes not in the provided set. Here we define the "relation" as having the largest weighted degree of edges connected to the provided genes.
 
 
 
 “__Compare my genes to__” options allow users to limit the genes to a high confidence set or all genes based on expression levels. 
 
-•	“A high confidence gene set” will match input genes to only a subset of genes filtered on minimum expression level across experiments. This is the default setting.
+•	“__A high confidence gene set__” will match input genes to only a subset of genes filtered on minimum expression level across experiments. This is the default setting.
 
-•	“Almost all genes” will match your genes to a very lightly filtered gene set.
+•	“__Almost all genes__” will match your genes to a very lightly filtered gene set.
 
   
 ## Generating the results
