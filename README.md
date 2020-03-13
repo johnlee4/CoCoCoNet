@@ -8,8 +8,9 @@ CoCoCoNet is free to use and available at https://milton.cshl.edu/CoCoCoNet/
 
 ## Step 1: Initialization
 ![initialize](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/initialize.png)
-Preloaded genes can be used to test the server’s functionality with the “Example settings”. Users can choose either the top 231 co-expressed yeast genes studied by Eisen et al (7) or the top 102 co-expressed genes associated with Autism Spectrum Disorder (ASD) from Satterstrom et al (8) . More on these examples in the use cases section of the manuscript and this document. In the steps below, we have selected the yeast set (Figure S7).
-“Select Input method:” allows users to choose how to load in a gene list. Currently, users can select genes from a drop down list, paste a comma separated list, or upload a file with genes listed in new lines. Toggling between these will change the adjacent “Upload gene list” box. 
+Preloaded genes can be used to test the server’s functionality with the “Example settings”. Users can choose either the top 231 co-expressed yeast genes studied by Eisen et al (5) or the top 102 co-expressed genes associated with Autism Spectrum Disorder (ASD) from Satterstrom et al (6) . More on these examples in the use cases section of the manuscript and this document. In the steps below, we have selected the yeast set.
+
+“__Select Input method:__” allows users to choose how to load in a gene list. Currently, users can select genes from a drop down list, paste a comma separated list, or upload a file with genes listed in new lines. Toggling between these will change the adjacent “Upload gene list” box. 
 
 Users can extend their analyses beyond their gene set with the “__Using genes__” options. 
 
@@ -26,11 +27,11 @@ Users can extend their analyses beyond their gene set with the “__Using genes_
 •	“__Almost all genes__” will match your genes to a very lightly filtered gene set.
 
   
-## Generating the results
+## Visualizing Results
 
-Once your genes have been properly loaded, the "Generate Results" and "Clear Results" options will appear. Selecting "Generate Results" will display the network, the distribution of Co-expression values, and a sliding threshold bar that allows the user to filter the network to include only connections greater than this threshold. The user also has the option to highlight genes along with their direct connections or highlight genes with specified enriched GO terms. Using the example setting of "Highly Co-expressed Yeast Genes" and selecting genes with GO term "translation initiation" gives the folowwing network.
-![yeast](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/yeast.png)
+Once your genes have been properly loaded, the "Generate Results" and "Clear Results" options will appear. Selecting "Generate Results" will display the network, the distribution of co-expression values, and a sliding threshold bar that allows the user to filter the network to include only connections greater than this threshold. The user also has the option to highlight genes along with their direct connections or highlight genes with specified enriched GO terms. Using the example setting of "Highly co-expressed yeast genes" and selecting genes with GO term "ribosome" from the drop down box gives the following network – highlighting genes involved in the ribosome. 
 
+![part1](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/part1.png)
 
 ## Ortholog Mapped genes
 
