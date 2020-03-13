@@ -6,35 +6,17 @@ To use CoCoCoNet, simply input a list of genes (or a single gene) as gene symbol
 
 CoCoCoNet is free to use and available at https://milton.cshl.edu/CoCoCoNet/
 
-## The Parameters
-![param](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/main.png)
+## Step 1: Initialization
+![initialize](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/initialize.png)
+Preloaded genes can be used to test the server’s functionality with the “Example settings”. Users can choose either the top 231 co-expressed yeast genes studied by Eisen et al (7) or the top 102 co-expressed genes associated with Autism Spectrum Disorder (ASD) from Satterstrom et al (8) . More on these examples in the use cases section of the manuscript and this document. In the steps below, we have selected the yeast set (Figure S7).
+“Select Input method:” allows users to choose how to load in a gene list. Currently, users can select genes from a drop down list, paste a comma separated list, or upload a file with genes listed in new lines. Toggling between these will change the adjacent “Upload gene list” box. 
+Users can extend their analyses beyond their gene set with the “Using genes” options. 
+•	“That I provide only" will construct the network using only selected genes. This is the default setting.
+•	"That I provide plus more highly co-expressed genes" will select the most closely related genes not in the provided set. Here we define the "relation" as having the largest weighted degree of edges connected to the provided genes.
+“Compare my genes to” options allow users to limit the genes to a high confidence set or all genes based on expression levels. 
+•	“A high confidence gene set” will match input genes to only a subset of genes filtered on minimum expression level across experiments. This is the default setting.
+•	“Almost all genes” will match your genes to a very lightly filtered gene set.
 
-**Example Settings**
-  
-  Choose to use either: Top 236 co-expressed Yeast genes studied by Eisen et al [5] or the top 284 co-expressed genes associated with Autism Spectrum Disorder (ASD) from the SFARI Gene database [6].
-
-**The Species**
-  
-  Select the species that your genes come from. 
-
-**Select Input method:**
-  
-  Allows you to choose how to load in a gene list. Currently, you can select genes from a drop down list, paste a comma separated list, or upload a file with genes listed in new lines. 
-
-
-**Priority vs Meta**
-  
-  Selecting Priority will only use a subset of the gene set filtered on expresionality across experiments.
-  
-  Meta on the otherhand will build the network using all available genes in the gene set.
-  
-
-**Using genes ...**
-  
-  "That I provide only" will construct the network using only selected genes.
-  
-  "That I provide plus __ more" will select the most closely related genes not in the provided set. Here we define the "relation" as having the largest weighted degree of edges connected to the provided genes.
-  
   
 ## Generating the results
 
@@ -77,4 +59,4 @@ Data used to generate results can be downloaded at [ftp://milton.cshl.edu/data](
 
 [5] Eisen, M. B., Spellman, P. T., Brown, P. O., Botstein, D. (1998) Cluster analysis and display of genome-wide expression patterns, _Proceedings of the National Academy of Sciences_, __(95)__, 25, 14863-14868; https://www.pnas.org/content/95/25/14863
 
-[6] Banerjee-Basu, S., Packer, A. (2010) SFARI Gene: an evolving database for the autism research community, _Disease Models & Mechanisms_, __3__: 133-135; https://dmm.biologists.org/content/3/3-4/133#ref-1
+[6] Satterstrom F., et. al.(2020) Large-Scale Exome Sequencing Study Implicates Both Developmental and Functional Changes in the Neurobiology of Autism, _Cell_, __180__: 568-584; https://www.cell.com/cell/fulltext/S0092-8674(19)31398-4#%20
