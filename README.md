@@ -33,14 +33,14 @@ Once your genes have been properly loaded, the "Generate Results" and "Clear Res
 
 ![part1](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/part1.png)
 
-## Ortholog Mapped genes
+## Step 2: Conserved Species Selection and Ortholog Mapping
 
 The next section allows the user to input a second species to compare to the first. Doing so will select genes of the second species with a 1 to 1 ortholog of genes in the provided gene set. After selection, "Generate" and "Clear Section" buttons will appear where selecting "Generate" will again display the network, the co-expression value distribution, and a sliding threshold bar. Again the user has the option to highlight genes along with its nearest neighbors or highlight genes by GO term. Here, we select mouse and selecting by gene, which also highlights the gene in orange and the order 1 connections in green. Red Stars indicate hub genes which are defined to be genes with the largest node degree.
 
 ![compare](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/compare.png)
 
 
-## Extending Guilt by Association by Degree (EGAD)
+## Step 3: Comparative Assessment using EGAD
 
 The final section allows the user to perform Guilt by Association (GBA) analysis on the input genes and the corresponding 1 to 1 ortholog using EGAD [4]. EGAD analyzes enriched GO terms of each species using either neighbor voting or by node degree and reports the corresponding area under the receiver operating curve (AUROC) or the precision recall curve (AUPRC) across 3 cross validation folds. Four figures are shown, the top two figures give the distribution of AUC scores for each species, the bottom figures compares the two speciess. On the left, we compare the AUC scores of common GO terms and on the right, we compare the enrichment p-values for similar GO terms. Optionally, the user can elect to obtain the gene set score which is a measure of connectivity of the input genes to the "High Confidence" gene set or the "Almost all" gene set chosen in step 1. 
 
