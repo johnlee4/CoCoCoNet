@@ -8,7 +8,7 @@ CoCoCoNet is free to use and available at https://milton.cshl.edu/CoCoCoNet/
 
 ## Step 1: Initialization
 ![initialize](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/initialize.png)
-Preloaded genes can be used to test the server’s functionality with the “Example settings”. Users can choose either the top 231 co-expressed yeast genes studied by Eisen et al (5) or the top 102 co-expressed genes associated with Autism Spectrum Disorder (ASD) from Satterstrom et al (6) . More on these examples in the use cases section of the manuscript and this document. In the steps below, we have selected the yeast set.
+Preloaded genes can be used to test the server’s functionality with the “Example settings”. Users can choose either the top 231 co-expressed yeast genes studied by Eisen et al (5) or the 102 genes associated with Autism Spectrum Disorder (ASD) from Satterstrom et al (6) . More on these examples in the use cases section of the manuscript and this document. In the steps below, we have selected the yeast set.
 
 “__Select Input method:__” allows users to choose how to load in a gene list. Currently, users can select genes from a drop down list, paste a comma separated list, or upload a file with genes listed in new lines. Toggling between these will change the adjacent “Upload gene list” box. 
 
