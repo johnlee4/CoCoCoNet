@@ -42,7 +42,8 @@ The next section allows the user to input a second species to compare to the fir
 
 ## Extending Guilt by Association by Degree (EGAD)
 
-The final section allows the user to perform Guilt by Association (GBA) analysis on the input genes and the corresponding 1 to 1 ortholog using EGAD [4]. EGAD analyzes enriched GO terms of each species using either neighbor voting or by node degree and reports the corresponding area under the receiver operating curve (AUROC) or the precision recall curve (AUPRC) across 3 cross validation folds. 
+The final section allows the user to perform Guilt by Association (GBA) analysis on the input genes and the corresponding 1 to 1 ortholog using EGAD [4]. EGAD analyzes enriched GO terms of each species using either neighbor voting or by node degree and reports the corresponding area under the receiver operating curve (AUROC) or the precision recall curve (AUPRC) across 3 cross validation folds. Four figures are shown, the top two figures give the distribution of AUC scores for each species, the bottom figures compares the two speciess. On the left, we compare the AUC scores of common GO terms and on the right, we compare the enrichment p-values for similar GO terms. Optionally, the user can elect to obtain the gene set score which is a measure of connectivity of the input genes to the "High Confidence" gene set or the "Almost all" gene set chosen in step 1. 
+
 ![assess](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/assess.png)
 
 ## Downloadables
@@ -51,7 +52,7 @@ Networks can be downloaded by right clicking and saving the image, histograms an
 ![exporting](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/exporting.png)
 
 
-Raw data used to generate results can be downloaded at [ftp://milton.cshl.edu/data](ftp://milton.cshl.edu/data). Here, you can find: rank standardized co-expression networks, gene to GO matrices, 1-to-1 ortholog maps, gene conversion tables, the null distributions of AUROC scores (measured by EGAD) and node degree, sample input and R scripts used to generate results as well as a CoCoCoNetlite version. 
+Raw data used to generate results can be downloaded at ![ftp://milton.cshl.edu/data](ftp://milton.cshl.edu/data). Here, you can find: rank standardized co-expression networks, gene to GO relationships, 1-to-1 ortholog maps, gene conversion tables, the null distributions of AUROC scores (measured by EGAD) and node degree, sample input and R scripts used to generate results as well as a CoCoCoNetlite version. 
 
 ![exporting](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/download.png)
 
