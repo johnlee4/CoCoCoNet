@@ -35,17 +35,25 @@ Once your genes have been properly loaded, the "Generate Results" and "Clear Res
 
 ## Ortholog Mapped genes
 
-The next section allows the user to input a second species to compare to the first. Doing so will select genes of the second species with a 1 to 1 ortholog of genes in the provided gene set. After selection, "Generate" and "Clear Section" buttons will appear where selecting "Generate" will again display the network, the co-expression value distribution, and a sliding threshold bar. Again the user has the option to highlight genes along with its nearest neighbors or highlight genes by GO term.  
-![C_elegans](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/roundworm.png)
+The next section allows the user to input a second species to compare to the first. Doing so will select genes of the second species with a 1 to 1 ortholog of genes in the provided gene set. After selection, "Generate" and "Clear Section" buttons will appear where selecting "Generate" will again display the network, the co-expression value distribution, and a sliding threshold bar. Again the user has the option to highlight genes along with its nearest neighbors or highlight genes by GO term. Here, we select mouse and selecting by gene, which also highlights the gene in orange and the order 1 connections in green. Red Stars indicate hub genes which are defined to be genes with the largest node degree.
+
+![compare](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/compare.png)
 
 
 ## Extending Guilt by Association by Degree (EGAD)
+
 The final section allows the user to perform Guilt by Association (GBA) analysis on the input genes and the corresponding 1 to 1 ortholog using EGAD [4]. EGAD analyzes enriched GO terms of each species using either neighbor voting or by node degree and reports the corresponding area under the receiver operating curve (AUROC) or the precision recall curve (AUPRC) across 3 cross validation folds. 
+![assess](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/assess.png)
 
 ## Downloadables
-![download](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/download.png)
 
-Data used to generate results can be downloaded at [ftp://milton.cshl.edu/data](ftp://milton.cshl.edu/data). User results can also be downloaded at every step by toggling the "Download" option.
+Networks can be downloaded by right clicking and saving the image, histograms and scatter plots can be saves using the "download plot as a png" utility and relevant data can be downloaded at each stage by toggling the "Download" switch.
+![exporting](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/exporting.png)
+
+
+Raw data used to generate results can be downloaded at [ftp://milton.cshl.edu/data](ftp://milton.cshl.edu/data). Here, rank standardized co-expression networks, 
+
+![exporting](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/exporting.png)
 
 ## Browser Support
 
