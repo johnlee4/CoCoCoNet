@@ -51,9 +51,9 @@ Networks can be downloaded by right clicking and saving the image, histograms an
 ![exporting](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/exporting.png)
 
 
-Raw data used to generate results can be downloaded at [ftp://milton.cshl.edu/data](ftp://milton.cshl.edu/data). Here, rank standardized co-expression networks, 
+Raw data used to generate results can be downloaded at [ftp://milton.cshl.edu/data](ftp://milton.cshl.edu/data). Here, you can find: rank standardized co-expression networks, gene to GO matrices, 1-to-1 ortholog maps, gene conversion tables, the null distributions of AUROC scores (measured by EGAD) and node degree, sample input and R scripts used to generate results as well as a CoCoCoNetlite version. 
 
-![exporting](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/exporting.png)
+![exporting](https://github.com/johnlee4/CoCoCoNet/blob/master/figures/download.png)
 
 ## Browser Support
 
